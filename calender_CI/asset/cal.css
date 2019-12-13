@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+	background-color: rgb(188, 246, 205);
+	text-align: center;
+	margin-left: 100px;
+}
+
+table {
+	font-family: Arial;
+	font-size:   25px;
+}
+
+table {
+	margin:          auto;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: tomato;
+}
+
+
+
+table  td {
+	width:            80px;
+	height:           80px;
+	padding:          4px;
+	border:           1px solid #999;
+	vertical-align:   top;
+	background-color: rgb(169, 199, 238);
+}
+
+
+
+table  td:hover {
+	background-color: #FFF;
+}
+
+table .highlight {
+	font-weight: bold;
+	color:       rgb(255, 0, 0);
+}
+
+th:nth-of-type(1), td:nth-of-type(1) {
+    color: red;
+}
+th:nth-of-type(7), td:nth-of-type(7) {
+    color: blue;
+}

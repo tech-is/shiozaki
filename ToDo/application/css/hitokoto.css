@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+    background-color: beige;
+    text-align: center;
+}
+
+div table{
+    margin-top: 100px;
+}
+
+
+
+.aa {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.aa input[type='text']{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #ffffff;
+	box-shadow: 1px 1px 2px 0 #707070 inset;
+	border-radius: 4px;
+}
+.bb　input[type='text']:focus {
+	outline: none;
+	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.aa {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.aa textarea{
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: 1px solid #ffffff;
+	box-shadow: 1px 1px 2px 0 #707070 inset;
+	border-radius: 4px;
+}
+.bb　textarea:focus {
+	outline: none;
+	box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.up{
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s;
+}
+      
+.up:hover {
+    background-image: linear-gradient(45deg, #98ccf7 0%, #2600ff 100%);
+}
+
+.del{
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #98ccf7 0%, #2600ff 100%);
+    transition: .4s;
+}
+      
+.del:hover {
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+}

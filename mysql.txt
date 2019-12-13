@@ -1,0 +1,15 @@
+mysql -u root
+
+show databases;
+
+use board;
+
+ create table message(id int auto_increment, view_name varchar(100), message text, post_date datetime, index(id));
+
+ create table bbs(
+    -> id int auto_increment,
+    -> view_name varchar(100),
+    -> message text,
+    -> post_date datetime,
+    -> flag int(1),
+    -> index(id));

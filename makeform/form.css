@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../upload/IMG_9510.JPG');
+    background-size: cover;
+    overflow: scroll;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: #b0f6e7;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: auto ;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+
+p {
+    text-align: left;
+    line-height: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+} 
+
+p.cop {
+    text-align: right;
+    padding-top: 400px;
+}
+
+div {
+    text-align: center;
+}
+
+.registration{
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s;
+}
+      
+.registration:hover {
+    background-image: linear-gradient(45deg, #98ccf7 0%, #2600ff 100%);
+}
+
+ 
+.scroll{overflow-x:scroll;}
+.scroll::-webkit-scrollbar{height:10px;}/*バーの太さ*/
+.scroll::-webkit-scrollbar-track{background:#dddddd;}/*バーの背景色*/
+.scroll::-webkit-scrollbar-thumb{background:#2cc2e4;}/*バーの色*/
